@@ -16,6 +16,7 @@ import org.mingi.servlets.chap11.dao.Member;
 import org.mingi.servlets.chap11.dao.MemberDao;
 import org.mingi.servlets.chap11.dao.MemberDaoImpl;
 
+//register/step3 : RegisterStep3Servlet -> /WEB-INF/jsp/register/step3.jsp
 @WebServlet("/register/step3")
 public class RegisterStep3Servlet extends HttpServlet {
 

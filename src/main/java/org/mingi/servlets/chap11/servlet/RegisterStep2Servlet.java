@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+//register/step2 : RegisterStep2Servlet -> /WEB-INF/jsp/register/step2.jsp
 @WebServlet("/register/step2")
 public class RegisterStep2Servlet extends HttpServlet {
 
