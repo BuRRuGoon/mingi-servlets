@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+//register/step1 : RegisterStep1Servlet -> /WEB-INF/jsp/register/step1.jsp
 @WebServlet("/register/step1")
 public class RegisterStep1Servlet extends HttpServlet {
 	@Override

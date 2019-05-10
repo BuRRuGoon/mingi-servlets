@@ -18,3 +18,6 @@ public class MainServlet extends HttpServlet {
 				response);
 	}
 }
+
+
+// (main, members register(step1)) - dispotcher Servlet

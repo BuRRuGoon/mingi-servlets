@@ -16,6 +16,7 @@ import org.mingi.servlets.chap11.dao.Member;
 import org.mingi.servlets.chap11.dao.MemberDao;
 import org.mingi.servlets.chap11.dao.MemberDaoImpl;
 
+//Members : MemberServlet -> /WEB-INF/jsp/member.jsp
 @WebServlet("/members")
 public class MemberListServlet extends HttpServlet {
 	MemberDao memberDao = null;
@@ -34,7 +35,7 @@ public class MemberListServlet extends HttpServlet {
 			throw new ServletException(e.getCause());
 		}
 	}
-
+//처음 접속이후에는 doPost나 doGet만 실행이된
 	@Override
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
@@ -46,7 +47,7 @@ public class MemberListServlet extends HttpServlet {
 			logger.error(e.getMessage());
 		}
 
-		// 페이지 당 가져오는 행의 수
+		// 페이지 당 가져오는 행의 수다
 		final int COUNT = 10;
 		// 시작점
 		int offset = (page - 1) * COUNT;

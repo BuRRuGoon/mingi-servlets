@@ -10,7 +10,7 @@
 
 	<context-param>
 		<param-name>basePackage</param-name>
-		<param-value>org.migni.servlets.chap11</param-value>
+		<param-value>org.mingi.servlets.chap11</param-value>
 	</context-param>
 
 	<servlet>
@@ -24,7 +24,7 @@
 	</servlet-mapping>
 
 	<error-page>
-		<location>/e/error.jsp</location>
+		<location>/error.jsp</location>
 	</error-page>
 
 	<welcome-file-list>
